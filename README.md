@@ -5,14 +5,14 @@ The system provides **instant visual feedback** via a **16×2 I2C LCD** and **au
 
 ---
 
-## 🔍 Problem Statement
+## Problem Statement
 
 Monitoring indoor environmental conditions is essential for ensuring **comfort, safety, and equipment protection** in homes, laboratories, and workspaces.  
 Manual monitoring is inefficient and error-prone. This project addresses the problem by providing an **automated, real-time monitoring solution** using embedded hardware.
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Measure room temperature and humidity accurately
 - Display real-time sensor data on an LCD
@@ -22,7 +22,7 @@ Manual monitoring is inefficient and error-prone. This project addresses the pro
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 DHT11 Sensor
 ↓
@@ -36,7 +36,7 @@ Arduino UNO
 
 
 
-## 🧰 Hardware Components
+## Hardware Components
 
 - Arduino UNO  
 - DHT11 Temperature & Humidity Sensor  
@@ -47,7 +47,7 @@ Arduino UNO
 
 ---
 
-## 🛠️ Software & Libraries
+## Software & Libraries
 
 - Arduino IDE  
 - DHT Sensor Library (Adafruit)  
@@ -56,7 +56,7 @@ Arduino UNO
 
 ---
 
-## ⚙️ Working Principle
+## Working Principle
 
 1. The DHT11 sensor continuously measures temperature and humidity.
 2. Arduino UNO reads and processes the sensor data.
@@ -68,7 +68,7 @@ Arduino UNO
 
 ---
 
-## 📟 Sample Output
+## Sample Output
 
 ### Normal Condition
 Temp: 28°C
@@ -81,11 +81,11 @@ Temp: 32°C ALRT
 Hum: 65%
 
 
-🔔 Buzzer activates when temperature exceeds the limit.
+ Buzzer activates when temperature exceeds the limit.
 
 ---
 
-## 📌 Key Features
+##  Key Features
 
 - Real-time temperature and humidity monitoring
 - Threshold-based alert mechanism
@@ -95,7 +95,7 @@ Hum: 65%
 
 ---
 
-## 🏭 Applications
+## Applications
 
 - Smart room and home monitoring
 - Laboratory and classroom safety systems
@@ -104,7 +104,7 @@ Hum: 65%
 
 ---
 
-## ✅ Advantages
+## Advantages
 
 - Low-cost implementation
 - Easy to deploy and maintain
@@ -113,7 +113,7 @@ Hum: 65%
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Measures only ambient temperature (not internal device temperature)
 - DHT11 has limited accuracy compared to industrial sensors
@@ -121,7 +121,7 @@ Hum: 65%
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - IoT integration using ESP8266 / ESP32
 - Mobile and web-based monitoring
@@ -131,7 +131,7 @@ Hum: 65%
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 Smart-Room-Monitoring-System/
 ├── SmartRoomMonitor.ino
@@ -144,14 +144,14 @@ Smart-Room-Monitoring-System/
 
 ---
 
-## 👤 Author
+## Author
 
 **Deepak Rajesh**  
 
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**, allowing free use, modification, and distribution with attribution.
 
