@@ -155,7 +155,6 @@ Smart-Room-Monitoring-System/
 
 This project is licensed under the **MIT License**, allowing free use, modification, and distribution with attribution.
 
-
 ---
 
 ## Circuit 
